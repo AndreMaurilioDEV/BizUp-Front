@@ -1,0 +1,15 @@
+.form-input {
+  display: flex;
+  position: relative;
+}
+
+.form-input span {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  left: 7px;
+  font-size: 1.2rem;
+}
