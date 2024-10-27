@@ -6,7 +6,7 @@ import CadastroPage from "./pages/Cadastro/Cadastro";
 function App() {
   return (
     <Routes>
-      <Route path="/BizUp-Front" element={<LoginPage/>}/>
+      <Route path="/" element={<LoginPage/>}/>
       <Route path="/cadastro" element={<CadastroPage/>}/>
     </Routes>
   )
