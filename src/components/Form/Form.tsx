@@ -36,7 +36,9 @@ function Form({fields, onSubmit, textButton} : FormProps) {
   return (
     <form onSubmit={handleSubmit}>
       {fields.map((field) => (
-        <div key={field.name} className='form-input'>
+        <div key={field.name} 
+        className={`form-input ${field.label ? 'has-label' : ''}`}>
+          {field.label && <label>{field.label}</label>}
           <span>{field.icon}</span>
           <input 
           type={field.type}

@@ -84,9 +84,7 @@ function LoginPage() {
       </div>
       <div className='div-register'>
         <div className='div-register-flex'>
-          <div>
         <p>É novo no BizUp? <span onClick={() => navigate('/cadastro')}>Cadastra-se agora!</span></p>
-          </div>
         </div>
       </div>
 

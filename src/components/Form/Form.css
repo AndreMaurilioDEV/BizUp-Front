@@ -1,6 +1,7 @@
 .form-input {
   display: flex;
   position: relative;
+  flex-direction: column;
 }
 
 .form-input span {
@@ -12,4 +13,8 @@
   justify-content: center;
   left: 7px;
   font-size: 1.2rem;
+}
+
+.form-input.has-label span {
+  top: 10px;
 }
